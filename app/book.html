@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Animated Books with CSS 3D Transforms - Demo 1</title>
+		<meta name="description" content="Animated Books with CSS 3D Transforms" />
+		<meta name="keywords" content="book, 3d, interactive, animated, 3d transform, css, web design" />
+		<meta name="author" content="Marco Barría for Codrops" />
+		<link rel="stylesheet" type="text/css" href="styles/book.css" />
+    </head>
+    <body>
+    <div class="cube-wrap">
+        <div box-generator class="cube depth">
+            <div ng-scope-element="front" class="front-pane"></div>
+            <div ng-scope-element="back" class="back-pane"></div>
+            <div ng-scope-element="top" class="top-pane"></div>
+            <div ng-scope-element="bottom" class="bottom-pane"></div>
+            <div ng-scope-element="left" class="left-pane"></div>
+            <div ng-scope-element="right" class="right-pane"></div>
+        </div>
+    </div>
+    <div id="container">
+        <figure class='book' id="book" style="z-index: 100; margin-top: 100px; margin-left: 500px; position: absolute">
+            <ul class='hardcover_front'>
+                <li>
+                    <div class="coverDesign yellow"></div>
+                </li>
+                <li></li>
+            </ul>
+            <ul class='page'>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li><a class="btn" href="#">Download</a></li>
+                <li></li>
+            </ul>
+            <ul class='hardcover_back'>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class='book_spine'>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </figure>
+    </div>
+    <div style="position:absolute; left:50%; top:10%">
+        <a href="#" onclick="openBook()">Open Book</a>
+    </div>
+    <script>
+        function openBook() {
+            var book = document.getElementById("book");
+            book.setAttribute("class", "book open");
+        }
+    </script>
+    </body>
+</html>

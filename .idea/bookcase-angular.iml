@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="angular-protractor-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-translate-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-ui-bootstrap-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angular-ui-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angularfire-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="angularjs-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="gruntjs-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="jasmine-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="jasmine-fixture-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="jasmine-jquery-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="jasmine-matchers-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="jQuery UI-1.10.2" level="application" />
+    <orderEntry type="library" name="jQuery-2.0.0" level="application" />
+    <orderEntry type="library" name="Knockout-2.2.1" level="application" />
+    <orderEntry type="library" name="Modernizr-2.6.2" level="application" />
+    <orderEntry type="library" name="bookcase-angular node_modules" level="project" />
+  </component>
+</module>
+
